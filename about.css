@@ -1,0 +1,80 @@
+
+body{
+    background-color: rgb(128, 227, 134);
+}
+p{
+    font-size: 30px;
+}
+.column-left h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    }
+    
+    .column-left p{
+        margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: "Fira Sans", serif; 
+    }
+    
+    button{
+        padding: 1rem 3rem;
+        font-size: 1rem;
+        border: none;
+        background-color: green;
+        color: white;
+        cursor: pointer;
+        border-radius: 50px;
+        margin: auto;
+    }
+    
+    button:hover{
+        background-color: white;
+        color: black;
+        
+    }
+    
+    .maintextbit{
+        text-align: center;
+        font-size: 26px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .column-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0%;
+    }
+    
+    .hero-image{
+        width: 44%;
+        height: 80%;
+    
+    }
+    .hero-image2{
+        width: 27.3%;
+        height: 0%;
+    
+    }
+    .menuitem{
+        text-decoration: none;
+        color: black;
+        margin: auto;
+        font-size: 33px;
+        font-family: "Bebas Neue", serif;
+    }
+    h1{
+        text-align: center;
+        font-size: 60px;
+        font-family: "Manrope", serif;
+    }
+    
+    @media screen and (max-width:768) {
+        .hero-container{
+            grid-template-columns: 1fr;
+        }
+        
+        
+    }
+    
